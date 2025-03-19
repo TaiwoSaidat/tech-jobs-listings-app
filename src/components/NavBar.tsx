@@ -4,7 +4,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <>
-      <div className="bg-blue-600 text-white p-4">
+      <div className="bg-gray-900 p-4 ">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="text-xl font-bold">
             Tech Job Posts
@@ -12,8 +12,7 @@ const NavBar = () => {
           <div>
             <Link
               href="/post-job"
-              // href="/"
-              className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors"
+              className=" px-12 py-2 rounded-lg bg-zinc-700 hover:bg-gray-600 transition-colors"
             >
               Post a Job
             </Link>

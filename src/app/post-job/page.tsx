@@ -51,18 +51,22 @@ export default function PostJob() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <button
-        onClick={() => router.push("/")}
-        className="text-blue-600 mb-6 flex items-center"
-      >
-        <span className="mr-2">←</span> Back to Job Listings
-      </button>
-
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h1 className="text-3xl font-bold text-center mb-6">Post a New Job</h1>
+      <div className="bg-gray-500 rounded-lg shadow-md p-6">
+        <div className=" flex justify-between items-center">
+          <h1 className="text-3xl font-bold text-center mb-6 ">
+            Post a New Job
+          </h1>
+          <button
+            onClick={() => router.push("/")}
+            className=" mb-6 flex items-center"
+                  >
+                      
+            <span className=" text-white text-2xl b-2 p-4">x</span>
+          </button>
+        </div>
 
         {submitSuccess ? (
-          <div className="bg-green-100 p-4 rounded-lg text-green-700 mb-6">
+          <div className="bg-zinc-700 p-4 rounded-lg text-white mb-6">
             Job posted successfully! Redirecting to home page...
           </div>
         ) : (
@@ -179,7 +183,7 @@ export default function PostJob() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors ${
+                className={`px-16 py-2 rounded-lg bg-zinc-700 hover:bg-gray-600 transition-colors ${
                   isSubmitting ? "opacity-70 cursor-not-allowed" : ""
                 }`}
               >

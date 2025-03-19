@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4 py-8  ">
       <h1 className="text-3xl font-bold mb-8 text-center">Job Listings</h1>
 
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex justify-center">
           <button
             onClick={handleLoadMore}
-            className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            className=" px-8 py-2 rounded-4xl bg-zinc-700 hover:bg-gray-600 transition-colors"
           >
             Load More
           </button>

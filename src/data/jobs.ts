@@ -123,4 +123,104 @@ export const jobs: Job[] = [
     salary: "$140,000 - $170,000",
     postedDate: "2025-03-09",
   },
+  {
+    id: "11",
+    title: "Software Engineer",
+    company: "CodeWorks",
+    description: "Build and maintain software applications for our clients.",
+    fullDescription:
+      "Build and maintain software applications for our clients. We're looking for a Software Engineer with expertise in JavaScript, Python, or Go. You’ll work on full-cycle development, from designing system architecture to implementation and deployment.",
+    location: "Los Angeles, CA",
+    salary: "$125,000 - $155,000",
+    postedDate: "2025-03-19",
+  },
+  {
+    id: "12",
+    title: "AI Engineer",
+    company: "NeuralNet AI",
+    description: "Develop machine learning models for our AI-driven solutions.",
+    fullDescription:
+      "Develop machine learning models for our AI-driven solutions. Ideal candidates should have expertise in Python, TensorFlow, and deep learning frameworks. You'll work on natural language processing, image recognition, and AI automation projects.",
+    location: "San Jose, CA",
+    salary: "$140,000 - $180,000",
+    postedDate: "2025-03-18",
+  },
+  {
+    id: "13",
+    title: "Cloud Engineer",
+    company: "SkyCompute",
+    description: "Design and manage scalable cloud infrastructure.",
+    fullDescription:
+      "Design and manage scalable cloud infrastructure. Seeking an experienced Cloud Engineer with knowledge in AWS, GCP, or Azure. You'll implement serverless architectures, automate deployments, and ensure high availability.",
+    location: "Dallas, TX",
+    salary: "$130,000 - $160,000",
+    postedDate: "2025-03-17",
+  },
+  {
+    id: "14",
+    title: "Cybersecurity Analyst",
+    company: "CyberSafe Solutions",
+    description: "Monitor and protect IT systems against security threats.",
+    fullDescription:
+      "Monitor and protect IT systems against security threats. The ideal candidate will have experience with threat detection, penetration testing, and compliance standards. You'll analyze security logs, conduct audits, and develop risk mitigation strategies.",
+    location: "Atlanta, GA",
+    salary: "$115,000 - $145,000",
+    postedDate: "2025-03-16",
+  },
+  {
+    id: "15",
+    title: "Blockchain Developer",
+    company: "CryptoTech Labs",
+    description: "Develop and optimize blockchain-based applications.",
+    fullDescription:
+      "Develop and optimize blockchain-based applications. Seeking a developer with Solidity, Rust, or Hyperledger experience. You'll design smart contracts, implement DeFi protocols, and contribute to the next generation of blockchain solutions.",
+    location: "Remote",
+    salary: "$135,000 - $165,000",
+    postedDate: "2025-03-15",
+  },
+  {
+    id: "16",
+    title: "Game Developer",
+    company: "NextGen Games",
+    description:
+      "Develop high-quality video games using Unity or Unreal Engine.",
+    fullDescription:
+      "Develop high-quality video games using Unity or Unreal Engine. We're looking for a Game Developer who can create immersive experiences, implement game mechanics, and optimize performance. Passion for gaming is a plus!",
+    location: "Seattle, WA",
+    salary: "$100,000 - $130,000",
+    postedDate: "2025-03-14",
+  },
+  {
+    id: "17",
+    title: "IT Support Specialist",
+    company: "TechSolutions",
+    description: "Provide technical support and troubleshooting to end users.",
+    fullDescription:
+      "Provide technical support and troubleshooting to end users. Candidates should have experience with Windows, macOS, and Linux environments. You'll diagnose hardware/software issues and ensure smooth IT operations.",
+    location: "Houston, TX",
+    salary: "$70,000 - $90,000",
+    postedDate: "2025-03-13",
+  },
+  {
+    id: "18",
+    title: "E-commerce Manager",
+    company: "ShopifyX",
+    description: "Manage and optimize our online store for increased sales.",
+    fullDescription:
+      "Manage and optimize our online store for increased sales. Ideal candidates have experience with Shopify, WooCommerce, or Magento. You'll implement marketing strategies, analyze performance data, and enhance the customer experience.",
+    location: "New York, NY",
+    salary: "$95,000 - $120,000",
+    postedDate: "2025-03-12",
+  },
+  {
+    id: "19",
+    title: "Robotics Engineer",
+    company: "AutomateTech",
+    description: "Design and develop autonomous robotic systems.",
+    fullDescription:
+      "Design and develop autonomous robotic systems. Seeking an engineer with expertise in ROS, embedded systems, and mechanical design. You'll build and optimize robotic solutions for industrial and consumer applications.",
+    location: "Boston, MA",
+    salary: "$125,000 - $155,000",
+    postedDate: "2025-03-11",
+  },
 ];
