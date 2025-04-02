@@ -1,8 +1,3 @@
-// "use client";
-// import Image from "next/image";
-// import JobCard from "../components/JobCard";
-// import { jobs } from "../data/jobs";
-
 "use client";
 
 import React, { useState } from "react";
